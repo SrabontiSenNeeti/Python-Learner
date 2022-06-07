@@ -36,7 +36,33 @@ if num == 0:
 elif num % 2 == 0:
     print(num,"Is Even")
 else :
-    print(num,"is Odd")           
+    print(num,"is Odd")      
+    
+    
+             
+#If the number is positive, we print an appropriate message
+num = 3
+if num > 0:
+    print(num, "is positive number")   
+print("This is always printed")
+
+num = -1
+if num > 0 :
+    print(num, "is a positive number")
+print("This is also printed") 
+
+
+# Program checks if the number is positive or negative
+# And displays an appropriate message
+
+num = int(input("Enter a number:"))
+if num >= 0:
+    print("Positive or Zero")
+else :
+    print("Negative Number")    
+        
+    
+    
                  
     
     
