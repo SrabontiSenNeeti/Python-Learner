@@ -25,3 +25,18 @@ else:
     print("If all Fails") 
     
     
+#take user input
+num = input("Enter a number:")
+#print(type(num))
+#convert string to int
+num = int(num)  
+#print(type(num))20
+if num == 0:
+    print(num,"is Even")
+elif num % 2 == 0:
+    print(num,"Is Even")
+else :
+    print(num,"is Odd")           
+                 
+    
+    
